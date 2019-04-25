@@ -25,7 +25,6 @@ def right_bound(a, n):
 def bin_search(a, n):
   left = left_bound(a,n)
   right = right_bound(a,n)
-  print(right, left)
   return (left+right)//2 if right-left > 1 else "Number not found"
   
 l = [1,1,2,3,5,8,13,21,34,55]
